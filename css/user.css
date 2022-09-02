@@ -1,0 +1,51 @@
+body{
+    text-align: center;
+}
+#cover{
+    z-index: 55; 
+    background: #000; 
+    position: absolute; 
+    left: 0px; 
+    top: 0px; 
+    width: 100vw; 
+    height: 100vh;
+    filter: alpha(opacity=30);  
+    opacity: 0.3;
+    display: none;
+}
+#signup_card .container #login-row #login-column #login-box {
+    margin-top: 120px;
+    max-width: 600px;
+    border: 1px solid #9C9C9C;
+    background-color: #EAEAEA;
+}
+#signup_card .container #login-row #login-column #login-box #login-form {
+    padding: 20px;
+}
+#signup_card{
+    z-index: 66;
+    width: 55vw;
+    position: absolute;
+    top: 2vh;
+    left: 23%;
+    text-align: left;
+    display: none;
+}
+#update_card .container #login-row #login-column #login-box {
+    margin-top: 120px;
+    max-width: 600px;
+    border: 1px solid #9C9C9C;
+    background-color: #EAEAEA;
+}
+#update_card .container #login-row #login-column #login-box #login-form {
+    padding: 20px;
+}
+#update_card{
+    z-index: 77;
+    width: 55vw;
+    position: absolute;
+    top: 2vh;
+    left: 23%;
+    text-align: left;
+    /* display: none; */
+}
